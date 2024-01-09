@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BILLING SYSTEM</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Invoice</h1>
+			<address contenteditable>
+				<p>AASK limited</p>
+				<p>Road no.1<br>Banjara Hills , Hyderabad 500034</p>
+				<p>9988776655</p>
+			</address>
+			<span><img alt="" src="http://www.jonathantneal.com/examples/invoice/logo.png"><input type="file" accept="image/*"></span>
+            <img alt ="" src="C:\Users\amiri\Downloads\A_letter_tech_logo-removebg-preview.png" height="140" width="140">
+		</header>
+		<article>
+			<h1>Recipient</h1>
+			<address contenteditable>
+				<p>COSTCO limited<br>user 1</p>
+			</address>
+			<table class="meta">
+				<tr>
+					<th><span contenteditable>Invoice #</span></th>
+					<td><span contenteditable>1</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Date</span></th>
+					<td><span contenteditable>January 4, 2024</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Grand Total</span></th>
+					<td><span id="prefix" contenteditable>₹</span><span>00.00</span></td>
+				</tr>
+			</table>
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th><span contenteditable>Item</span></th>
+						<th><span contenteditable>Description</span></th>
+						<th><span contenteditable>Rate</span></th>
+						<th><span contenteditable>Quantity</span></th>
+						<th><span contenteditable>Price</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a class="cut">-</a><span contenteditable></span></td>
+						<td><span contenteditable></span></td>
+						<td><span data-prefix>₹</span><span contenteditable>00.00</span></td>
+						<td><span contenteditable>1</span></td>
+						<td><span data-prefix>₹</span><span>00.00</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<a class="add">+</a>
+			<table class="balance">
+				<tr>
+					<th><span contenteditable>Total</span></th>
+					<td><span data-prefix>₹</span><span>00.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Discount</span></th>
+					<td><span data-prefix>₹</span><span contenteditable>0.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Grand Total</span></th>
+					<td><span data-prefix>₹</span><span>00.00</span></td>
+				</tr>
+			</table>
+		</article>
+		<aside>
+			<h1><span contenteditable>Additional Notes</span></h1>
+			<div contenteditable>
+				<p>Thank you for shopping.....</p><br>Do visit again......</div></p>
+			</div>
+		</aside>
+	</body>
+</html>
